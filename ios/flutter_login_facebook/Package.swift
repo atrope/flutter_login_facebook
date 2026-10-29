@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "FlutterFramework", path: "../FlutterFramework"),
-        .package(url: "https://github.com/facebook/facebook-ios-sdk", exact: "18.0.3"),
+        .package(url: "https://github.com/facebook/facebook-ios-sdk", exact: "18.1.0"),
     ],
     targets: [
         .target(
